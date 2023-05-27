@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/f33a2a9b-da53-4f4f-8c71-231d0e6362f7/resourceGroups/certusGuideNodeJs/providers/Microsoft.Web/sites/certusGuideNodeJs",
+  "appService.deploySubpath": "."
+}
