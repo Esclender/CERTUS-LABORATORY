@@ -1,0 +1,18 @@
+{
+  "articulos": [
+    {
+      "id": "2bZkh-8W",
+      "name": "Triple Cama",
+      "precio": 1540,
+      "marca": "LG",
+      "stock": 15
+    },
+    {
+      "id": "cf4qab9I",
+      "name": "Lavadora",
+      "precio": 1540,
+      "marca": "LG",
+      "stock": 15
+    }
+  ]
+}

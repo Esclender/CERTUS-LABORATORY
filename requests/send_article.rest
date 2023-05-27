@@ -1,0 +1,7 @@
+POST http://localhost:10801/articulos
+Content-Type: application/json
+
+{
+    "product": "Tostadora",
+    "origen":"Peru"
+}
