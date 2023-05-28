@@ -17,7 +17,7 @@ const options = {
       }
     ]
   },
-  apis: ['./routes/articles.js']
+  apis: ['./src/routes/articles.js']
 };
 
 

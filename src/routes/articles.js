@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid"
 import express from "express"
-import services from "../controller/articlesControllers.js"
+import services from "../../controller/articlesControllers.js"
 
 const router = express.Router()
 
