@@ -13,7 +13,7 @@ const options = {
     },
     servers:[
       {
-        url: `https://certusapi.azurewebsites.net`
+        url: `https://dockerguia1.azurewebsites.net`
       }
     ]
   },
