@@ -29,6 +29,6 @@ app.use("/articulos",router)
 
 
 app.listen(PORT, (req, resp) => {
-  console.log(`Server running in port ${PORT}`)
+  console.log(`EALS: Server running in port ${PORT}`)
   swaggerDocsV1(app,PORT)
 })
