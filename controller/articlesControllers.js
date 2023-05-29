@@ -53,7 +53,7 @@ const updateArticle = (req,res) => {
     res.send(articulos.get())
 
   } catch (error) {
-    console.log(error)
+    res.status(500).send(error)
   }
 }
 
@@ -70,7 +70,7 @@ const deleteArticle = (req,res) => {
     res.send(articulos.get())
 
   } catch (error) {
-    console.log(error)
+    res.status(500).send(error)
   }
 }
 
