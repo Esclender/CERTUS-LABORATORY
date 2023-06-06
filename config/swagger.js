@@ -1,8 +1,6 @@
 import swaggerUi from "swagger-ui-express"
 import swaggerJSDoc from "swagger-jsdoc"
 
-const PORT = process.env.PORT || 10801
-
 const options = {
   definition: {
     openapi: '3.0.0',
@@ -17,7 +15,7 @@ const options = {
       }
     ]
   },
-  apis: ['./src/routes/articles.js']
+  apis: ['./src/routes/*.js']
 };
 
 
@@ -26,7 +24,7 @@ const swaggerSpec = swaggerJSDoc(options)
 
 const swaggerDocs = (app, port) => {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
-  console.log(`Your docs are in port ${PORT}` );
+  console.log(`Your docs are in port ${port}` );
 }
 
 
